@@ -1,0 +1,24 @@
+.Transaction {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AccountNum {
+  width: 15vw;
+}
+
+.AccountName {
+  width: 15vw;
+}
+
+.Currency {
+  width: 15vw;
+}
+
+.Amount {
+  width: 15vw;
+}
+
+.TransactionType {
+  width: 15vw;
+}

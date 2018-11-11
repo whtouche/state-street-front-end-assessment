@@ -68,9 +68,9 @@ export const fetchDataBegin = () => ({
   type: FETCH_DATA_BEGIN,
 });
 
-export const fetchDataSuccess = (products) => ({
+export const fetchDataSuccess = (data) => ({
   type: FETCH_DATA_SUCCESS,
-  payload: { products },
+  payload: data,
 });
 
 export const fetchDataFailure = (error) => ({

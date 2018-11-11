@@ -1,0 +1,29 @@
+.Heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AccountNum {
+  width: 15vw;
+  font-weight: 700;
+}
+
+.AccountName {
+  width: 15vw;
+  font-weight: 700;
+}
+
+.Currency {
+  width: 15vw;
+  font-weight: 700;
+}
+
+.Amount {
+  width: 15vw;
+  font-weight: 700;
+}
+
+.TransactionType {
+  width: 15vw;
+  font-weight: 700;
+}
