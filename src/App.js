@@ -12,9 +12,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className={styles.App}>
-        <Filters />
-        <Transactions />
+      <div>
+        <h1 className={styles.AppHeader}>My Transactions</h1>
+        <hr className={styles.AppHeader}/>
+        <div className={styles.App}>
+          <Filters />
+          <Transactions />
+        </div>
       </div>
     );
   }
