@@ -1,0 +1,33 @@
+.AccountNameFilters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: lightgrey;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: .5rem;
+}
+
+.TransactionTypeFilters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: lightgrey;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: .5rem;
+}
+
+.FilterHeader {
+  margin: 0;
+  padding: .5rem 0;
+  font-weight: 700;
+}
+
+.FilterTitle {
+  margin: 0;
+}
+
+.Filter {
+  line-height: 1.5;
+}

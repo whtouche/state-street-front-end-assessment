@@ -1,6 +1,7 @@
 .Transaction {
   display: flex;
   justify-content: space-evenly;
+  line-height: 1.5;
 }
 
 .AccountNum {
